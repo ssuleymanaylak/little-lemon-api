@@ -112,3 +112,7 @@ Built with **Django** and **Django REST Framework**, using **Pipenv** for depend
 ```bash
 git clone https://github.com/USERNAME/little-lemon-api.git
 cd little-lemon-api
+pipenv install
+pipenv run python manage.py migrate
+pipenv run python manage.py createsuperuser
+pipenv run python manage.py runserver
