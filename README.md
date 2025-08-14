@@ -109,6 +109,7 @@ Built with **Django** and **Django REST Framework**, using **Pipenv** for depend
 ## 🛠️ Installation & Setup
 
 ### 1. Clone the repository
+- **Setting .env file if it doesn't exit,create and fill the parameter values.**
 ```bash
 git clone https://github.com/USERNAME/little-lemon-api.git
 cd little-lemon-api
